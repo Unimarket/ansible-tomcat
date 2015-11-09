@@ -23,8 +23,6 @@
     that:
       - tomcat_redis_sha256sum not in (None, "")
 
-
-
 - name: Include util get/put instructions
   tags: tomcat
   include: util.yml
